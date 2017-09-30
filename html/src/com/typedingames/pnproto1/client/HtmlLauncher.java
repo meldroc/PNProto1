@@ -3,7 +3,7 @@ package com.typedingames.pnproto1.client;
 import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.backends.gwt.GwtApplication;
 import com.badlogic.gdx.backends.gwt.GwtApplicationConfiguration;
-import com.typedingames.pnproto1.PunchNaziPrototype;
+import com.typedingames.pnproto1.PNGame;
 
 public class HtmlLauncher extends GwtApplication {
 
@@ -14,6 +14,6 @@ public class HtmlLauncher extends GwtApplication {
 
         @Override
         public ApplicationListener createApplicationListener () {
-                return new PunchNaziPrototype();
+                return new PNGame();
         }
 }
